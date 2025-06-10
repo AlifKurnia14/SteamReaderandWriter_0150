@@ -12,6 +12,11 @@ int main(){
     cout << ">= Menulis file, \'q\' untuk keluar "<< endl;
     //umlimited loop untuk menulis
     while (true) {
+        cout << "- ";
+        // Mendapatkan setiap karakter dalam 1 baris.
+        getline(cin, baris);
+        // loop akan berhenti jika anda masukan karakter q
         
+
     }
 }
